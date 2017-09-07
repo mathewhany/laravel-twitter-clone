@@ -1,0 +1,1 @@
+@include('posts._show', ['post' => $comment])

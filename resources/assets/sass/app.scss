@@ -1,0 +1,52 @@
+body {
+	margin-top: 2em;
+	background-color: #f9f9f9;
+}
+
+article {
+	padding: 1em;
+	margin-bottom: 1em;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	
+	.details {
+		display: block;
+		color: gray;
+		float: left;
+
+		.user {
+			display: inline;
+			color: #111;
+		}
+	}
+
+	.control-buttons {
+		float: right;
+		
+		a, form {
+			display: inline-block;
+			margin-bottom: 0;
+		}
+	}
+
+	.body {
+		font-size: 23px;
+	}
+
+	.comments {
+		margin-top: 1em;
+
+		article {
+			background-color: #f9f9f9;	
+		}
+
+		form {
+			margin: 0;
+			
+			.form-group input {
+				width: 100%;
+			}
+		}
+	}
+}
